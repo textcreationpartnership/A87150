@@ -1,0 +1,798 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Abners funerall, or, a sermon preached at the funerall of that learned and noble knight, Sir Thomas Lucie. By Robert Harris, B.D. and Pastor of the Church at Hanwell, Oxon.</title>
+            <author>Harris, Robert, 1581-1658.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 75 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A87150</idno>
+            <idno type="STC">Wing H869</idno>
+            <idno type="STC">Thomason E132_27</idno>
+            <idno type="STC">ESTC R21249</idno>
+            <idno type="EEBO-CITATION">99871098</idno>
+            <idno type="PROQUEST">99871098</idno>
+            <idno type="VID">156372</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A87150)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 156372)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 23:E132[27])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Abners funerall, or, a sermon preached at the funerall of that learned and noble knight, Sir Thomas Lucie. By Robert Harris, B.D. and Pastor of the Church at Hanwell, Oxon.</title>
+                  <author>Harris, Robert, 1581-1658.</author>
+               </titleStmt>
+               <extent>[8], 36 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Iohn Bartlet, and are to be sould at the signe of the Gilt Cup by Saint Austins Gate,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Lucy, Thomas, --  Sir --  1585-1640.</term>
+               <term>Bible. --  O.T. --  Samuel, 2nd, III, 38-39 --  Sermons --  Early works to 1800.</term>
+               <term>Sermons, English --  17th century.</term>
+               <term>Funeral sermons --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:156372:1" rendition="simple:additions"/>
+            <p>Abners Funerall, OR, A SERMON Preached at the Funerall Of that Learned and Noble Knight, SIR <hi>THOMAS LVCIE.</hi>
+            </p>
+            <p>By ROBERT HARRIS, <hi>B. D.</hi> and Paſtor of the Church at HANWELL, OXON.</p>
+            <q>
+               <hi>Graves are for me.</hi> 
+               <bibl>JOB 17 1.</bibl>
+            </q>
+            <q>
+               <hi>Qui pro nobis mortem ſemel vicit, ſemper vincit in nobis.</hi> 
+               <bibl>Cyprian, Epiſt, Secundum Pamelium. 9.</bibl>
+            </q>
+            <p>LONDON, Printed for <hi>Iohn Bartlet,</hi> and are to be ſould at the ſigne of the <hi>Gilt Cup</hi> by Saint <hi>Auſtins</hi> Gate, 1641.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:156372:2"/>
+            <head>TO THE HONOVRABLE AND VERTUOUS, The Ladie LUCIE OF CHARLCOT, <hi>Grace and Peace.</hi>
+            </head>
+            <opener>
+               <salute>Madam,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">S</seg>Trange not my ſlowneſſe. I never penn'd and printed more unchearefully, more ſadly. Sorrow moves ſlowly. And what is this your Ladiſhip hath now woone from me! alas! I cannot print your Lord alive againe: nor did I intend any pourtraiture of him. What I ſpake was meant to the Living. The Dead
+<pb facs="tcp:156372:3"/>needed not my attestation. Indeed I loved Him more (as another once ſaid) than to ſay much of Him. All that I can wiſh, is, that all, who pretend to Him, and his Religion, would expreſſe him in theſe particulars.</p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 That they would See with their Owne Eyes, and ſatisfie themſelves in their Owne Grounds.</p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 That they would be True to their Owne Principles; that ſo a man might know where to have them, and ſee, that they did Believe themſelves.</p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 That they would Say leſse and Doe more,<note place="margin">Cic. de ſinibus tib. 2. Epkurei mihi videniur meli<g ref="char:EOLhyphen"/>us faccre, quam dicere.</note> and ſo difference themſelves from other men, as once ſome Philoſo<g ref="char:EOLhyphen"/>phers did.</p>
+            <p n="4">
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> 4 That they would give leave to Diſsent, where Aſſent cannot be with<g ref="char:EOLhyphen"/>out Diſſembling.</p>
+            <p>It is confeſſed, <hi>Madam,</hi> That
+<pb facs="tcp:156372:3"/>Sir <hi>Thomas</hi> and I were not alwaies of one minde. Diſſent we did, in ſome things: But this I ſhall ever honour in Him, That He was <hi>Himſelfe,</hi> and his <hi>Friends</hi> too. Neither proſtitu<g ref="char:EOLhyphen"/>ting his owne, nor raviſhing another mans judgement; Herein we concur'd, and for this I honoured him, and he was pleaſed to owne me.</p>
+            <p>The world conceives my loſſe to be exceeding great.<note place="margin">He was as <hi>A<g ref="char:EOLhyphen"/>ristotle</hi> ſaies of the magnani<g ref="char:EOLhyphen"/>mous<gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> And it is a truth. For I have loſt the <hi>Freeſt Repro<g ref="char:EOLhyphen"/>ver</hi> that ever I met withall. But why ſhould we reckon our friends <hi>Gaines</hi> to our <hi>Loſſes!</hi> I have done, <hi>Madam,</hi> with him.</p>
+            <p>And now let us (I beſeech you) get off from our ſelves. At leaſt, Let's im<g ref="char:EOLhyphen"/>prove our ſorrows to ſpirituall purpoſes. Mourne for this <hi>Kil-friend, Sin.</hi> Mourne for the loſſe of our time, and
+<pb facs="tcp:156372:4"/>our not inhanſing <hi>opportunities</hi> and <hi>ſocieties.</hi> And henceforward ſet our faces <hi>Homeward, Heaven-ward.</hi> Study <hi>Heaven; Secure Heaven;</hi> Trade and dwell in Heaven. There looke our ſelves; thence expect our <hi>Sa<g ref="char:EOLhyphen"/>viour.</hi>
+            </p>
+            <p>Meane while conſider, <hi>Noble Lady,</hi> your great truſt. <hi>A Great E<g ref="char:EOLhyphen"/>ſtate, A great Family.</hi> You have ma<g ref="char:EOLhyphen"/>ny Servants to order; Children to edu<g ref="char:EOLhyphen"/>cate; Neighbours to relieve. Here ſeale up your <hi>Thankfulneſſe</hi> to <hi>God;</hi> your <hi>Faithfulneſſe</hi> to your <hi>Deareſt Husband.</hi> And the <hi>God</hi> of Heaven help you. Thus at last I returne you your own. What to call theſe <hi>Funerall Diſpatches,</hi> I wot not. <hi>Yours</hi> (ſuch as it is) it is, you will owne it with<g ref="char:EOLhyphen"/>all its imperfections, and ſtand betwixt blame and me.</p>
+            <pb facs="tcp:156372:4"/>
+            <p> I could not come home to your De<g ref="char:EOLhyphen"/>ſires fully. Some things I forgat in the Delivery; and ſome I then abridged for haſte, and now make ſhort breathd enough. But I am come as neare to my meaning, and my own Copie, as I can. The <hi>Lord</hi> go with it, and ever be with you, and all yours. So will Pray</p>
+            <closer>
+               <signed>Your Ladiſhips conſtant ſervant in the Faith, ROBERT HARRIS.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:156372:5"/>
+            <head>Abners Funerall, OR, A SERMON Preached at the Funerall of that Learned and Noble Knight, Sir THOMAS LUCY.</head>
+            <epigraph>
+               <q>
+                  <bibl>2 SAM. 3.38, 39.</bibl>
+                  <p n="38">38. And the King ſaid unto his ſervants, know you not, that there is a Prince, and a great man fallen this day in <hi>Iſrael?</hi>
+                  </p>
+                  <p n="39">39. And I am this day weake, though annointed King, and theſe men the ſons of <hi>Zerviah</hi> be too hard for me: the <hi>LORD</hi> ſhall reward the doer of evill according to his wickedneſſe.</p>
+               </q>
+            </epigraph>
+            <p>
+               <hi>
+                  <seg rend="decorInit">T</seg>Is an hard thing to Funerall it well. Mo<g ref="char:EOLhyphen"/>ſes</hi> pray'd GODS helpe in the caſe,<note place="margin">Pſal. 90.12.</note> and GOD (in part) helps us here by <hi>David.</hi> He had the art of mourning. His heart was exerciſed, his hand in. Earſt he mourned for King <hi>Saul,</hi> Prince <hi>Ionathan,</hi>
+               <note place="margin">2 Sam. 1.17.</note>
+               <pb n="2" facs="tcp:156372:6"/>and other his Allies: Now for Generall <hi>Abner.</hi>
+            </p>
+            <p>This <hi>Abner</hi> fell very unſeaſonably, for Himſelf, for <hi>David,</hi> for all <hi>Iſrael.</hi> The King is ſenſible of it, ſolemnizes his Funerall, becomes the chiefe Mourner, and makes his <hi>Panegyricke.</hi> And, ha<g ref="char:EOLhyphen"/>ving paſſed through his other parts, is now upon his Peroration, where his Maſter-peece is, <hi>To waſh his hands of Abner's blood;</hi> and his plea (ſtript out of its <hi>Rhetoricke</hi>) is this.</p>
+            <p>He that is truly ſorry for the dead, and would (if he could) revenge his death, cannot reaſona<g ref="char:EOLhyphen"/>bly be charged with the murder.</p>
+            <p>But this (ſaith <hi>David</hi>) is my caſe. I am ſorry for <hi>Abners</hi> death; I am ſorry for my ſelf, that I can<g ref="char:EOLhyphen"/>not revenge his death.</p>
+            <p>And therefore no way chargeable with it.</p>
+            <p>The Concluſion is open; The firſt Propoſition evident; The Aſſumption is made good by his practice.</p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 He did not only mourne, but juſtifie it from reaſon. A man, A great man, A leading man was <hi>Slaine, Slaine</hi> in <hi>Iſrael.</hi> This was knowne, (if men would own their owne knowledge) and therefore they could not ſtrange at his practice, in <hi>Forbear<g ref="char:EOLhyphen"/>ing Meat,</hi>
+               <note place="margin">Verſ. 35.</note> in <hi>Feeding upon Teares.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 And for the Second; Whereas it might be ſaid, <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> 
+               <hi>Many like the Treaſon, though they cry out of the Traitor;</hi> and contrive the ſlaughter, though they weepe over the ſlaine: If <hi>Davids</hi> heart went not with the murder, why is not his hand upon the Murderer?</p>
+            <p>
+               <hi>Davids</hi> Anſwer is, <label type="milestone">
+                  <seg type="milestoneunit">Sol. </seg>
+               </label> He was willing (but not a<g ref="char:EOLhyphen"/>ble)
+<pb n="3" facs="tcp:156372:6"/>to doe <hi>Abner</hi> right, his eſtate being yet unſet<g ref="char:EOLhyphen"/>led, and the concurrents <hi>(The ſons of Zerviah)</hi> po<g ref="char:EOLhyphen"/>tent in <hi>Court,</hi> and <hi>Camp:</hi> and therefore execution is perforce ſecured.</p>
+            <p>So then, <hi>David</hi> here reconciles things (ſeem<g ref="char:EOLhyphen"/>ingly) incompatible, and gives an accompt of himſelfe.</p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> I. Why he did mourne.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> II. Why he did no more.</item>
+            </list>
+            <p>
+               <hi>Mourne</hi> he could, More he could not: and that's the very Truth.</p>
+            <p>Let us now ſurvey <hi>Davids</hi> practice, and trace his ſteps.</p>
+            <p>Firſt, you ſee him refuſing comfort, and inviting ſorrow. Next you finde him ſo imbroild, that he knowes not well which way to turne him.</p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 In the firſt we will take notice of his grief, and</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Of his ground; whence he infers it.</item>
+            </list>
+            <p>
+               <hi>A man</hi> (ſaith he) <hi>is ſlaine: A Conſider able man</hi> of place and worth is <hi>ſlaine,</hi> and that in <hi>Iſrael.</hi> This is the ground of his ſorrow; and theſe his terms and expreſſions are no way inconſiſtent.</p>
+            <p>The man may be great, a <hi>Great Prince,</hi> of great authoritie, and yet <hi>Die:</hi> For, <hi>Greatneſſe</hi> will not keepe from <hi>Death:</hi> Nay let's give this Propoſiti<g ref="char:EOLhyphen"/>on its full extent.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>1</label> 
+               <hi>No Greatneſſe will keepe from any Death.</hi> No Greatneſſe, none.</p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 Not of <hi>Strength. There be that Die</hi> (ſaith <hi>Iob</hi>
+                  <hi>Chap.</hi> 21.23, 24.) <hi>in the ſtrength of their perfection,</hi> or in their moſt perfect ſtrength, when there is not the leaſt decay in Nature.</item>
+               <pb n="4" facs="tcp:156372:7"/>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Not of <hi>Birth. The high</hi> (ſaith <hi>Iob,</hi> nay the Princes, <hi>Iob</hi> 34 19.) <hi>fall, and that like others, Pſal.</hi> 82.7. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as well as <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Pſal.</hi> 49.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 Not of <hi>Parts, Ver.</hi> 10. <hi>As dies the foole ſo the wiſe.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> 4 Not of <hi>Place, Ver.</hi> 12.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="5"/> 5 Not of <hi>Meanes</hi> and <hi>Friends, Ver</hi> 7.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="6"/> 6 In <hi>One,</hi>
+                  <note place="margin">Pſal, 89.48.</note> 
+                  <hi>No Earthly Greatneſſe</hi> will deliver. No <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (let his Strength lye where it will the word is large) ſhall <hi>deliver himſelfe from the Grave, Death</hi> he muſt <hi>See,</hi> that is, <hi>Feele,</hi> as all ſenſes be a kinde of <hi>Feeling.</hi>
+               </item>
+            </list>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 No <hi>Greatneſſe</hi> will free from <hi>any Death.</hi> No not from <hi>any.</hi>
+            </p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 Not from a <hi>Bloody Death.</hi> Witneſſe great <hi>Sa<g ref="char:EOLhyphen"/>neherib.</hi> 2 <hi>King.</hi> 19. <hi>ult.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Not from a <hi>Baſe Death.</hi> Witneſſe Queen <hi>Ie<g ref="char:EOLhyphen"/>zabel.</hi> 2 <hi>Kings 9. ult.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 Not from an <hi>Vnnaturall Death.</hi> Witneſſe that great Statiſt, and Preſident of Counſellors, <hi>Achite<g ref="char:EOLhyphen"/>phel,</hi> 2 <hi>Sam.</hi> 17 23.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="4"/> 4 Not from the moſt <hi>Contemptible Death.</hi> Wit<g ref="char:EOLhyphen"/>neſſe King <hi>Herod,</hi> at his higheſt. <hi>Act.</hi> 12.23.</item>
+            </list>
+            <p>But why doe I inſiſt, where every Schoole-boy can inlarge upon the ſame Theame? One <hi>Abner</hi> is an inſtance of all, being every way great; Great in <hi>Strength,</hi> able to lead the braveſt Armie then in being: Great in <hi>Spirit,</hi> who would not <hi>give his Head for waſhing,</hi> nor take his advantage of <hi>Aſahel</hi> the Aſſailant: Great in <hi>Place, Captaine</hi> of the Guard, and that to Three Princes in ſucceſſion: To warlike <hi>Saul:</hi> To Prince <hi>Isboſheth:</hi> and now
+<pb n="5" facs="tcp:156372:7"/>conſigned by valiant <hi>David:</hi> Great in <hi>Power</hi> and <hi>Authority,</hi> able to conteſt with his Maſter, and able to ſway all <hi>Iſrael</hi> at his pleaſure. This mighty <hi>Ab<g ref="char:EOLhyphen"/>ner</hi> lyes <hi>Dead</hi> before you, and fals from <hi>Greatest Greatneſſe,</hi> into the <hi>Lowest Pit</hi> ſuddenly.</p>
+            <p>Shall I give you one Reaſon for all?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>
+               </label> 
+               <hi>Greatneſſe</hi> will not keepe from any one <hi>Cauſe:</hi> therefore not from any one <hi>Kinde</hi> of <hi>Death.</hi>
+            </p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 The <hi>Cauſes</hi> of <hi>Death,</hi> (if we ſpeake of <hi>Death</hi> at large) are,
+<list>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> 
+                     <hi>Morall,</hi> or <hi>Legall. Sin</hi> and <hi>Guilt.</hi>
+                  </item>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> 
+                     <hi>Naturall,</hi> or <hi>Phyſicall. Dyſcraſy, Diſproporti<g ref="char:EOLhyphen"/>on, &amp;c.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Earthly <hi>Greatneſſe</hi> can free from none of theſe, (as experience hath taught us.) Indeed if this <hi>Greatneſſe</hi> could take off <hi>Adams Guilt,</hi> free from all <hi>Sinne,</hi> deliver from all <hi>Diſtemper, Morall</hi> or <hi>Natu<g ref="char:EOLhyphen"/>rall:</hi> Then might it give a <hi>Superſedeas</hi> from <hi>Death.</hi> But the firſt is not poſſible: Therefore the ſecond is no way feaſable.</p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 If wee ſpeake of <hi>this Death, Violent Death;</hi> (ſo to call it) this, you know, growes from <hi>Innate Impotency,</hi> and <hi>Deficiency,</hi> and <hi>Forraine,</hi> either <hi>Suſ<g ref="char:EOLhyphen"/>penſion</hi> of <hi>Influence, Ayds</hi> and <hi>Supplies:</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <g ref="char:V">Ʋ</g>ide de Anima. cop <hi>52.53.</hi> &amp;c.</note> or forcible <hi>Impreſsions,</hi> and <hi>Incurſions</hi> made beyond all power of <hi>Reſistance:</hi> Now here <hi>Greatneſſe</hi> is alſo at a ſtand: <hi>Great men</hi> be as <hi>tender,</hi> as <hi>paſsive</hi> as others; <hi>Depend</hi> as much as others, and <hi>Stand</hi> by a <hi>Manutention; Lye</hi> as open, as others, to <hi>Invaſions</hi> and <hi>Aſſaults.</hi> Nay <hi>Greatneſſe</hi> is ſometimes <hi>Vnweldy of it ſelfe, Et mole ſuâ ruit:</hi> Sometimes it ſets a man more in the Eye of Envie, and face of Danger; and in
+<pb n="6" facs="tcp:156372:8"/>ſtead of <hi>ſheltring</hi> him, makes him a fairer <hi>marke.</hi> At all times 'tis <hi>Finite,</hi> and may be matcht. <hi>There is an Higher than the Higheſt,</hi> that will make but <hi>Morter of thoſe under foot,</hi> as 'tis, <hi>Eſay</hi> 41.25. At leaſt,<note place="margin">Eſay 41.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> what's wanting in <hi>Power,</hi> may be made up in <hi>Number,</hi> which is all one. Many <hi>Shoales</hi> of <hi>ſmall Fiſh</hi> may encounter the <hi>greateſt Whale.</hi> Many <hi>Swarmes</hi> of <hi>Flies</hi> and <hi>Frogs</hi> may invade King <hi>Pha<g ref="char:EOLhyphen"/>raoh,</hi> and his Kingdome. <hi>Cave multos, ſi ſingulos non times:</hi>
+               <note place="margin">Maximmus.</note> ſaid one to that great Tyrant. <hi>Leo fortis eſt &amp; occiditur. Elephas grandis eſt, &amp; occiditur, &amp;c.</hi> The ſtouteſt <hi>Lion,</hi> the greateſt <hi>Elephant,</hi> the fierceſt <hi>Tygre</hi> may be violently ſlain: a <hi>Sword</hi> will pierce, a <hi>Gun</hi> will ſhoot, <hi>Fire</hi> will burne, <hi>Water</hi> will drowne, nay a <hi>Raiſin</hi>-ſtone, a <hi>Fly,</hi> an <hi>haire</hi> will choak the greateſt Monarch living. We have ſaid enough to ſo ordinarie a point.<note place="margin">
+                  <hi>Vide</hi> inſtances in ſome Popes and Princes.</note> Only we are to make our uſe of it, before I diſmiſſe it; and that I ſhall (inſtantly) doe, if firſt I ſhall be bold to tell you what you are to truſt to. You ſee how it fares with <hi>Funerall Sermons.</hi> They are (moſtly) made but matters of forme, and men come to them as to great Feaſts. The firſt <hi>Courſe,</hi> wherein GOD is moſt concern'd, is lightly paſſed over: The ſe<g ref="char:EOLhyphen"/>cond, wherein <hi>Man</hi> is repreſented, is moſt expe<g ref="char:EOLhyphen"/>cted, and ſtood upon. For the preventing of this, I pray you underſtand, That you are not to expect any <hi>Second courſe</hi> at all: But ſuch proviſion as I could make, in this my indiſpoſedneſſe, you ſhall have ſerved in altogether. This ſaid, I have now a double addreſſe. <label type="milestone">
+                  <seg type="milestoneunit">Ʋſes. </seg>
+               </label>
+            </p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 <hi>The firſt to, us little ones.</hi>
+               </item>
+               <pb n="7" facs="tcp:156372:8"/>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 <hi>The other, to you of greater marke and place.</hi>
+               </item>
+            </list>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>1</label> Firſt, we of lower ranck muſt learne to reine in our ſtrong affections to an earthly greatneſſe: For why ſhould we be ſo licoriſh after that, which is of ſo little availe? Moderate therefore (as all, ſo chiefly) theſe affections.</p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 <hi>Great Feares.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 <hi>Great Hopes.</hi>
+               </item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 <hi>Great Deſires</hi> after great things here.</item>
+            </list>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> For <hi>Feares,</hi> It is the Prophets Inference, <hi>Pſal.</hi> 48.5. <hi>Why ſhould I feare, when I am threatned,</hi> and another inriched? Nay, 'tis GODS owne uſe. <hi>Eſay</hi> 51.12, and 7, 8. <hi>verſes. Who art thou that fearest a dying man,</hi> fading graſle, a little Wormes-meate, Mothes-meat?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> O, but, he is a great man, and may doe me a ſhrewd turne.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> 
+               <hi>Feare</hi> him, as <hi>Great,</hi> with a <hi>Feare</hi> of <hi>Reverence,</hi> as a larger Picture of <hi>Almighty</hi> GOD, whoſe is <hi>Greatneſſe,</hi> and all great things.<note place="margin">As great Ce<g ref="char:EOLhyphen"/>dars are Ce<g ref="char:EOLhyphen"/>dars of God, &amp;c, great Ci<g ref="char:EOLhyphen"/>ties, Moun<g ref="char:EOLhyphen"/>taines, <hi>&amp;c,</hi> are Gods.</note>
+            </p>
+            <p>But feare him not with a <hi>Feare of Baſeneſſe</hi> (feare him not ſo, as out of Cowardiſe to decline ſtation, balk duty, ſwallow ſin, diſſemble truth) Why? <hi>He is a dying man,</hi> ſaith GOD, and his greatneſſe will be devoured of Mothes. So baſely to feare a dying man begins in <hi>weakneſſe,</hi> and ends in a <hi>ſnare, Prov.</hi> 29.25. Therefore qualifie thoſe <hi>Peares.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> For <hi>Hopes,</hi> Heare <hi>Eſay, Chap. 2. laſt. Ceaſe from Man, whoſe breath is in his nostrils:</hi>
+               <note place="margin">Eſay 2. ult.</note> 
+               <hi>wherein is he to be valued?</hi> O! he is a Great, a promiſing man: Yea, But is not <hi>his breath in his noſtrils,</hi> rea<g ref="char:EOLhyphen"/>dy to be let out? If ſo, <hi>Ceaſe</hi> from <hi>hoping</hi> in, or
+<pb n="8" facs="tcp:156372:9"/>truſting on him.<note place="margin">Pſal. 146</note> Heare <hi>David, Truſt not in the Son of man.</hi> What if he bea Prince? <hi>Trust not in Prin<g ref="char:EOLhyphen"/>ces. Pſal.</hi> 146.3. Oh, but they have noble thoughts.<note place="margin">Ver. 4.</note> Yea, but <hi>thoſe dye with,</hi> or before them. Why ſhould I be infinite? Is he a <hi>Man, Man</hi> at his <hi>best, Every man</hi> (every whit of him) <hi>is not only vaine,<note place="margin">Pſal. 36.5. &amp; 62.9.</note> but vanitie.</hi> Nor ſo only, He is <hi>upon the Ba<g ref="char:EOLhyphen"/>lance and Triall, lighter than vanitie it ſelfe.</hi> There<g ref="char:EOLhyphen"/>fore caſt not thy Anchor of Hope there. <hi>Hope</hi> (if thou ſee cauſe) with an <hi>Humane Hope of Charitie and poſſibilitie:</hi> Beware of any higher <hi>Hope</hi> of <hi>Cer<g ref="char:EOLhyphen"/>tainty,</hi> of <hi>Infallibilitie.</hi> No doubt but many Ca<g ref="char:EOLhyphen"/>ptaines, their <hi>Hopes</hi> roſe and fell with riſing and fal<g ref="char:EOLhyphen"/>ling <hi>Abner.</hi>
+            </p>
+            <p n="3">3 But the third Affection, <hi>Deſire,</hi> is that I moſt inſiſt upon. <hi>Great Deſires</hi> to earthly things, diſco<g ref="char:EOLhyphen"/>ver little Judgement. Theſe are,</p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 <hi>Founded</hi> in Weakneſſe.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 <hi>Fed</hi> with Wind.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 <hi>End</hi> in Smoke.</item>
+            </list>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> For the firſt. <hi>Their Riſe is weakneſſe,</hi> as experi<g ref="char:EOLhyphen"/>ence (after Reaſon) ſhewes.<note place="margin">Foundation.</note> Who ſo longing as the languiſhing perſon? Who ſo climbing as the verieſt childe? So ambitious as the baſeſt Bram<g ref="char:EOLhyphen"/>ble? What ſo aſpiring as Winde and emptineſſe? So ravening as the emptieſt ſtomack? A maſſy man, of true worth indeed, brings worth to things, borrows none from them.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> For the Second. <hi>What is the food and fuell of theſe deſires?<note place="margin">Food.</note> Truly Wind.</hi> We may ſay of all theſe Sublunaries, what <hi>Salomon</hi> ſaith of one particular; <hi>They are not.</hi>
+               <note place="margin">Prov. 23.5.</note> And ſhall our deſires and eyes fly up<g ref="char:EOLhyphen"/>on
+<pb n="9" facs="tcp:156372:9"/>
+               <hi>Nothing.</hi> They are <hi>Nothing in realitie,</hi> and ver<g ref="char:EOLhyphen"/>tue. What they be, they be (as <hi>Tertullian</hi> ſome<g ref="char:EOLhyphen"/>where) <hi>in Phantaſie.</hi> Abſolute greatneſſe (out of GOD) <hi>is not.</hi> There's no ſuch thing among Crea<g ref="char:EOLhyphen"/>tures. The moſt is,<note place="margin">Ariſt.</note> (as the <hi>Philoſopher</hi> notes) but a <hi>Comparative Greatneſſe.</hi>
+            </p>
+            <p>Thus we call ſomethings <hi>great,</hi> compared to</p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. Little things: As <hi>Ten ſhillings</hi> is a great deale of monie to a <hi>Farthing token,</hi> and yet what's <hi>ten ſhillings?</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. To little perſons and Capacities. So to a low apprehenſion a little thing is great. Thus to a Child, every Puddle is a Poole; every Poole a Sea: every Reed a Speare; every Hollow Stick a Gun: Not becauſe theſe are great, but becauſe he is little; as <hi>Rome</hi> was <hi>once formidable, becauſe the neighbours were contemptible.</hi> But lay the compa<g ref="char:EOLhyphen"/>riſon right,<note place="margin">Floyus.</note> and bring theſe poore things to the <hi>Standard,</hi> and what are they? Alas! compared to the <hi>Great</hi> GOD they are leſſe than <hi>Littleneſſe.</hi>
+               <note place="margin">Iſa. 40.15, 17.</note> All perſons and things caſt in the Balance beare not proportion with <hi>one drop of the Bucket,</hi> beare not the weight of <hi>one duſt in the Balance.</hi> What's one duſt to the whole Balance? What's that to the Earth? What's one drop to the full Bucket? And what's the Bucket to the Well? The Well to the Sea? And what are all theſe laid in one to the <hi>Mighty</hi> GOD? <hi>Nothing, and leſſe than nothing,</hi> ſaith that high Prophet. Nay what is all here <hi>be<g ref="char:EOLhyphen"/>low</hi> to thoſe vaſt bodies <hi>above?</hi>
+               <note place="margin">Ver. 17.</note> And then what is ſuch an Iland as this compared to ſome other Kingdomes and Continents? What? But a lit<g ref="char:EOLhyphen"/>tle
+<pb n="10" facs="tcp:156372:10"/>Moat, and Swans-neſt? So true is that, which out Maſters have taught us of old: <hi>Nothing is ſim<g ref="char:EOLhyphen"/>ply great, but in reference to what is leſſe.</hi>
+            </p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 But let them be as big as phantaſie can make them:<note place="margin">End. Prov. 23.5.</note> they have (as <hi>Salomon</hi> adds) <hi>Wings,</hi> but no hands under thoſe wings. <hi>Wings</hi> to fly from us: no <hi>Hands</hi> to doe ought for us. <hi>Load</hi> us they can with great feares, cares, envies, jealouſies, diſtractions: but <hi>helpe</hi> us they cannot in the day of ſickneſſe; much leſſe in the houre of death. Ask the grea<g ref="char:EOLhyphen"/>teſt, what Death, what Hell, ſhall I ſay? Nay, what ſorrow, what ſickneſſe, what ach, what pain, can theſe, <hi>All theſe great nothings</hi> either prevent, or remove, or aſſwage? Ah Smoke! meer Smoke! which carry with them ſome <hi>trouble,</hi> but little or no <hi>warmth</hi> or comfort.</p>
+            <p>All which being (confeſſedly) ſo, let me ſay to you what our LORD ſaid to his Diſciples:<note place="margin">Mat. 24.2.</note> 
+               <hi>Are theſe the things you looke upon?</hi> And what GOD ſaid to <hi>Baruch,</hi>
+               <note place="margin">Ier. 45. ult.</note> 
+               <hi>Seekeſt thou great things for thy ſelfe? ſeeke them not.</hi> Enjoy them you may, if caſt upon you: But earneſtly ſeeke them not: Leave theſe to that poore fellow in <hi>Seneca,</hi> who was all for this <hi>Poore Greatneſſé,</hi>
+               <note place="margin">Sen. in. Suaſoria. 2. Senecio.</note> who in all haſte muſt be a <hi>Grandee,</hi> and thereupon lookt big, ſpake big, and bomba<g ref="char:EOLhyphen"/>ſted himſelfe out with big cloathes, and ſo became a <hi>great Foole.</hi> Leave theſe to thoſe dark men, who never came where <hi>greatneſſe</hi> grew, whoſe higheſt ambition was to heare <hi>(Great) Alexander the great; Mahomet the great; Pompey the Great; the great Cham; the Grand; Signior; the great Mogor; the King of Kings; the Coeli Filius; the Mundi-Dominus;
+<pb n="11" facs="tcp:156372:10" rendition="simple:additions"/>&amp;c.</hi> Let us, who have as many <hi>Eyes</hi> as the <hi>Chinois</hi> boaſt of, learne of Chriſtian men,<note place="margin">Vid. Bot. <hi>re<g ref="char:EOLhyphen"/>lati.</hi> l. 5. <hi>of the</hi> Chinois. Salvia. de pro<g ref="char:EOLhyphen"/>vid. l. 5. ad cal<g ref="char:EOLhyphen"/>cem.</note> what <hi>greatneſſe</hi> is. If thou wilt be Great, ſaith <hi>Salvian,</hi> be great in vertue, outſtrip men that way. If thou wilt out-ſhine others, <hi>get goodneſse, get Wiſedome,</hi> ſaith <hi>Salomon.</hi> If thou wilt get above all, be moſt uſefull and ſervicable, ſaith our <hi>Saviour.</hi> This the way. The greateſt <hi>greatneſſe,</hi> is <hi>goodneſse:</hi> for that ſets us neareſt to the <hi>greateſt</hi> GOD,<note place="margin">Eccl, 8.1. Zep. 2.3.</note> and <hi>good.</hi> Therefore let goe thoſe things which will never ſatisfie, never ſet us above a <hi>Pagan:</hi> and ſeek <hi>high, great</hi> things indeed. <hi>Seeke righteouſneſſe, ſeek meek<g ref="char:EOLhyphen"/>neſſe, ſeeke faith;</hi> nay, <hi>greaten</hi> theſe, <hi>abound</hi> in theſe, and other <hi>graces<g ref="char:punc">▪</g>
+               </hi>
+               <note place="margin">Pſal. 46.15.</note> then <hi>ſhall ye be Princes in all the Earth:</hi> you ſhall raigne with GOD, and, <hi>Iacob</hi>-like, <hi>Prince</hi>-it with him. This <hi>greatneſſe Spirituall</hi> is feiſable:<note place="margin">Hoſ. 11.12. &amp; 12.3.</note> this will ſet you above all theſe Mole<g ref="char:EOLhyphen"/>hils below, and will at laſt free you (though not from the <hi>ſtroke</hi> and ſenſe of ſickneſſe and death: yet) from the <hi>ſting,</hi> venome, curſe, bondage, and hurt of all. Here ſtop: here ſit we downe.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>2</label> My ſecond addreſſe is to you <hi>great Ones. My humble ſuite</hi> to you is this, <hi>That you will bee true to your ſelves;</hi> and know, that in <hi>deſpite of all greatneſſe,</hi>
+               <note place="margin">Reade <hi>Ezekiel</hi> 32. where 5. or 6. inſtances are given. ver. 17.18. <hi>ad finem uſque.</hi>
+               </note> you muſt <hi>die.</hi> The truth is, <hi>greatneſſe</hi> flatters <hi>men,</hi> and men flatter <hi>it.</hi> If great Ones will not deale tru<g ref="char:EOLhyphen"/>ly with <hi>themſelves,</hi> they muſt not expect it from <hi>others.</hi> Herein Povertie hath an advantage above Greatneſſe, that it meetes with plaine dealing; ſo doth not this. We dare tell a poore man, that he is not like to laſt, and bid him <hi>Set his houſe in or<g ref="char:EOLhyphen"/>der:</hi> But what ſervant, what friend, (nay al<g ref="char:EOLhyphen"/>moſt
+<pb n="12" facs="tcp:156372:11"/>I had ſaid) what <hi>Phyſitian,</hi> what <hi>Eſaiah</hi> will ſay ſo to an <hi>Hezekiah?</hi> We dare call a poore mans ſin, <hi>Sin,</hi> and tell him, that his ignorance is dange<g ref="char:EOLhyphen"/>rous, his pride damnable, his formalities foppe<g ref="char:EOLhyphen"/>ries; and bid him ſit ſure. But for the rich and mighty,<note place="margin">Cajetan.</note> we ſay in the words of the <hi>Cardinall</hi> in an<g ref="char:EOLhyphen"/>other caſe—<hi>Si vult decipi, Decipiatur.</hi> If a <hi>poore</hi> Curre runne away with ſtolne goods, wee purſue him, and rate him, till he reſigne: but who dares take the <hi>Beare by the tooth?</hi> the <hi>Lion by the Beard,</hi> and ſay <hi>Reſtore?</hi> Sith then <hi>few,</hi> or <hi>none</hi> will bee faithfull to you, be ye good to your ſelves: And, if you will hold a diſtance from your teachers, and not (with ſome great ones) admit of other Mo<g ref="char:EOLhyphen"/>nitors,<note place="margin">Memento Mori, Philip. &amp;c.</note> be your owne, and tell your ſelves, that you alſo are <hi>Mortall:</hi> els wee ſhall <hi>Immortalize</hi> you, as ſome would <hi>Alexander.</hi> Call your ſelves <hi>Sinners;</hi>
+               <note place="margin">
+                  <hi>
+                     <g ref="char:V">Ʋ</g>id.</hi> Hiſt of <hi>Lewes</hi> the 11.</note> els we, (with that Chartrous Monk in ſtory) <hi>Saint</hi> all who will <hi>fee</hi> and ſupple us. Con<g ref="char:EOLhyphen"/>ſult your owne bodies, and ſenſes, and ſee a decay there. Or, if you will abroad, improve this dou<g ref="char:EOLhyphen"/>ble inſtance. See here a <hi>Noble Paire,</hi> and eſtabliſh your ſelves in this truth, by the teſtimonie of two mouths, two bodies; <hi>both</hi> not long before their ends valiant, both vigorous, both preſenting as well, and promiſing as much as we can, and now both lie <hi>Dead</hi> before you. Nay, ſeeing Examples knowne and <hi>at hand</hi> worke beſt, and the Eye (of ſenſes) moſt affects the heart; See here under view a <hi>Man accompliſhed,</hi> and made up of all the Contributions of <hi>Art</hi> and <hi>Nature;</hi> a Man, in whom concurred all thoſe things,<note place="margin">Pythagoras.</note> which the Philoſopher
+<pb n="13" facs="tcp:156372:11"/>could thinke to beg of his God: to wit, <hi>Beautie, Riches,</hi> firme <hi>Conſtitution</hi> of body and mind:<note place="margin">D. Baz<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> Such a Braine, ſuch an Heart, as the moſt learned Phy<g ref="char:EOLhyphen"/>ſitian never ſaw. And thence inferre: that, <hi>There is no Redemption from the Grave.</hi> For certainely, if <hi>greatneſſe</hi> of wit, of learning, of ſpirit, of riches, of friends, of allies: if greatneſſe of care in ſervants, of atendance in <hi>Yokefellow,</hi> of skill in Phyſitians, of affection in all, could have kept off <hi>Death;</hi> wee had not been thus overcaſt, and clouded this day. But no outward greatneſſe will doe it;<note place="margin">Mors ſceptra li<g ref="char:EOLhyphen"/>ga<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ibus aequat. aequo pede pul<g ref="char:EOLhyphen"/>ſat. &amp;c. &amp; quae ſequen<g ref="char:EOLhyphen"/>tur paſsim.</note> Death knowes no meaſures, no diſtances, no degrees, no differences, but ſweepes away all, and either finds, or makes them Matches.</p>
+            <p>To you then; <hi>O yee ſons of the mighty,</hi> is my meſ<g ref="char:EOLhyphen"/>ſage. <hi>Set your houſes in order: for you muſt dye.</hi> You are left behinde to make ready: Oh prepare for death, for any death, nay for <hi>ſudden death:</hi> for why may not you fall in your ſtrength, in your Journie, aſwell as <hi>Abner?</hi> Say then, <hi>Are ye ready, now ready?</hi> is your Will made? your Pardon ſealed? could you dye this houre? in this place? If ſo, happy yee, in caſe you <hi>Stay for death, not death for you.</hi> But if as yet you bee not <hi>Shot-free,</hi> and <hi>Death-proofe,</hi> what doe yee meane? why doe ye defer? What? Doe yee thinke that <hi>death</hi> feares <hi>greatneſſe?</hi> or will bee anſwered with <hi>Complements?</hi> Or doe yee thinke that <hi>greatneſſe</hi> of ſpirit, of meanes, of chearfullneſſe, of Titles can beare you out? Or that it is all one to <hi>die in a Bra<g ref="char:EOLhyphen"/>vado,</hi> and in <hi>cold blood?</hi> Or that death is the ſame in the hand of a <hi>man,</hi> and of GOD? Or that a
+<pb n="14" facs="tcp:156372:12"/>
+               <hi>Lord have mercy, or</hi> two, an houre or two before you are <hi>all</hi> dead, will ſerve the turne? No, no, it's a <hi>worke</hi> of <hi>works</hi> to Die: that is, <hi>Actively</hi> and <hi>Cheerfully</hi> to reſigne life. The beſt, who have been about it, all their life, finde all proviſions little e<g ref="char:EOLhyphen"/>nough. And therefore doe not thinke to ſlight and to outlooke that <hi>King of Feares,</hi> that <hi>top-gal<g ref="char:EOLhyphen"/>lant:</hi> but feare before hand, that you neede not feare at any hand.</p>
+            <p>And yet let me advertiſe you of another extre<g ref="char:EOLhyphen"/>mity, and that is <hi>baſe-feare:</hi> for that will barre up the doores againſt all thought of death,<note place="margin">Vitellius trepi<g ref="char:EOLhyphen"/>dus, dein'temu<g ref="char:EOLhyphen"/>lentus. Tac.</note> and ſet you, either on <hi>Drinking</hi> with him in the ſtorie; or on ſome other Diverſion, therby to drowne, or to forget your feares.</p>
+            <p>There is (as elſewhere I have diſcourſed)
+<list>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 <hi>A Spirituall Feare of death.</hi> There is,</item>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 <hi>A naturall.</hi> Neither of which may bee diſſwaded.</item>
+               </list>
+            </p>
+            <p>The Feare, I give warning of, is,</p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 <hi>A Baſe, Cold, Carnall Feare,</hi> which will make a man creepe into an <hi>Augre-hole,</hi> ſwallow any ſin, admit of any ſlaverie; which will kill one dai<g ref="char:EOLhyphen"/>ly, becauſe he muſt <hi>once die,</hi> and keepe him a per<g ref="char:EOLhyphen"/>petuall ſlave,<note place="margin">Heb. 2.</note> and priſoner. This the <hi>feare</hi> I would not have you <hi>Cowed</hi> by: and this <hi>feare</hi> you may <hi>competently</hi> overcome, if you will ſet right the
+<list>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 Judgement.</item>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Conſcience.</item>
+                  <item>
+                     <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 Heart; The Inward man: Things, (upon another occaſion) lately ſpoken to, not here to be rehearſed.</item>
+               </list>
+            </p>
+            <pb n="15" facs="tcp:156372:12"/>
+            <p> At preſent, this is all. <hi>Miſtake</hi> not <hi>Death,</hi>
+            </p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 It is not, in it ſelfe, the <hi>greateſt</hi> of <hi>evils.</hi> As there be <hi>better things</hi> than this poore life; GODS favour, GODS image, the Life of CHRIST, Eternitie, &amp;c.<note place="margin">
+                  <hi>Vid.</hi> Animad<g ref="char:EOLhyphen"/>verſions of Biſh. of <hi>Sa<g ref="char:EOLhyphen"/>rum</hi> on Gods Love to Man<g ref="char:EOLhyphen"/>kind.</note> So are there <hi>worſe things</hi> than this <hi>death; Hell</hi> is worſe; <hi>Sin</hi> is worſe, GODS <hi>Curſe</hi> is worſe, <hi>Corruption</hi> worſe; <hi>Morall, Sinfull Evils</hi> worſe than this, which is <hi>painefull,</hi> and evill only to <hi>Nature.</hi> And reaſon we have to grieve more for being in a <hi>poſsibilitie, and proximitie of ſinning,</hi> than of <hi>dying.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 This Death is not ſo <hi>ſimply,</hi> and <hi>intrinſecally evill,</hi> as that <hi>no good</hi> can be made of it. Nay, this may be improved, and <hi>death</hi> may bee the <hi>death</hi> of all our deaths; of deadly diſeaſes, corruptions, temptations, of all. Thus ſimply conſidered it is not ſo formidable, as that we muſt fling away our weapons, deſert our ſtation, and fly,<note place="margin">Exceſſum dix. Tert. contra <g ref="char:V">Ʋ</g>a<g ref="char:EOLhyphen"/>lent. &amp; Cypria. Ep. 3.</note> (as once <hi>Iſrael)</hi> at the voice of this <hi>Goliah.</hi>
+            </p>
+            <p>But now Death to a Chriſtian becomes ano<g ref="char:EOLhyphen"/>ther thing. It hath loſt its name:<note place="margin">Luk. 2.29.</note> and hears a <hi>De<g ref="char:EOLhyphen"/>parture,</hi>
+               <note place="margin">Phil. 1 23.</note> a Diſſolution, a Change, a Sleepe,<note place="margin">Iob 14.14.</note> 
+               <hi>&amp;c.</hi> and we ſhould take up GODS language.<note place="margin">Ioh. 11.11. <hi>&amp; Paſsim.</hi>
+               </note>
+            </p>
+            <p>
+               <note place="margin">Aliud demuta<g ref="char:EOLhyphen"/>tio, aliud perdi<g ref="char:EOLhyphen"/>tio. Tert. de re<g ref="char:EOLhyphen"/>ſur. c. 55.</note> It hath loſt its <hi>Nature</hi> and <hi>Relation:</hi> tis not to ſuch an one <hi>Penall,</hi> but <hi>Medicinall: deſtructive,</hi> but (fetching its denomination from its <hi>terme</hi>) <hi>per<g ref="char:EOLhyphen"/>fective.</hi> Looke upon it under a new <hi>Notion;</hi>
+               <note place="margin">Plin. Nat. hiſt. lib. 7 &amp; 55.</note> and then you will not be of poore <hi>Plinies</hi> minde,<note place="margin">Hic rogo: non <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uror est ne mo<g ref="char:EOLhyphen"/>riare mori. Mart. lib. 2. E<g ref="char:EOLhyphen"/>pigram.</note> That <hi>It doubles</hi> ones paine, and death, to <hi>Forethinke</hi> the iſſues of it. No, it doubles your ſtrength, and makes your courage redoubted: therefore view it, and ſpare not: but view it thus.</p>
+            <p n="1">
+               <pb n="16" facs="tcp:156372:13"/> 1 Look upon it, not as <hi>deſtructive,</hi> tending to ru<g ref="char:EOLhyphen"/>ine: but as a <hi>meane</hi> and way to life. Looke be<g ref="char:EOLhyphen"/>yond it; See what ſtands behinde it; <hi>A Crowne of Glory, of Life, of Bliſſe.</hi> And this end will ſweeten and ſmooth the way: it will <hi>dare amica<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ilitatem mediis.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Looke upon it, as a <hi>Rod</hi> in GODS hand. This (as other ſtrokes) is moderated by him, and hee can make a <hi>Rod</hi> a <hi>Staffe, Pſal.</hi> 23. yea turne <hi>Mo<g ref="char:EOLhyphen"/>ſes ſerpent</hi> into a <hi>Rod,</hi> and worke with that <hi>Rod Won<g ref="char:EOLhyphen"/>ders.</hi> Death is a cup in our <hi>Fathers</hi> hand, as well as ſickneſſe, and workes wonders.</p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 Looke upon Death in CHRIST. Hee hath conquered it in his <hi>Perſon,</hi> and will in his <hi>Members.</hi> See how unable death was to ſeparate him from the Godhead, and ſhall be us from GOD, <hi>Rom.</hi> 8.38.<note place="margin">Rom 8.38.</note> See how hee hath intercepted and cut off Deaths ſuccours. Whereas <hi>death</hi> borrowed its <hi>Sting</hi> from <hi>ſinne,</hi>
+               <note place="margin">1 Cor. 15.56.</note> and <hi>Strength</hi> from the <hi>Law</hi> and <hi>Curſe:</hi> CHRIST hath <hi>diſarmed</hi> them all of all their deſtroying, killing power; and cald us, with S. <hi>Paul,</hi> to ſet our foot upon their neckes, and to ſing: O Death! O Sinne! O Curſe! O Hell! where's your power? <hi>&amp;c.</hi> Yea ſee him, having kild Death, and buried the Grave, fetching <hi>Honey and ſweet out of the ſtrong,</hi> turning Death into a Li<g ref="char:EOLhyphen"/>ving Friend,<note place="margin">1 Cor. 3. ult.</note> and moſt uſefull ſervant, 1 <hi>Cor.</hi> 3. <hi>ult.</hi> ſubdued to us Death, and ſo made it Ours.</p>
+            <p>O view death in the face of CHRIST, make him your Second in this Duell; and then you are freed from the feare, and ſo from the bondage of death: then you are <hi>Men indeed, Free men. A
+<pb n="17" facs="tcp:156372:13"/>Man is not himſelfe, but a Slave, till hee can either Live, or Die</hi> (as this noble Gentleman and I were wont to diſcourſe.) Then only he is free, when (with S. <hi>Paul) he can abound and want, bee ſicke and well; can live, or die.</hi> Nay then you ſhall be brave accompliſht men indeed; ſome of GODS Rab<g ref="char:EOLhyphen"/>bins, as <hi>Daniel</hi> cals them.<note place="margin">Vid. cap. <hi>9.27</hi> 
+                  <g ref="char:V">Ʋ</g>
+                  <hi rend="sup">t</hi> &amp; Job <hi>32.9.</hi>
+               </note> A man is not to be held a man, becauſe he dares meet a man, and can look any man in the face. (A great matter to looke a Worme in the face!) But then you ſhall be men; when you can looke any paine in the face, any fit in the face, any danger, any <hi>death</hi> in the face: when you can looke Judgement,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>1 Cor. 16.13.</note> and the unpartiall Judge in the face. This is to bee a Man. Thus Man-it.</p>
+            <p>And, ſith your <hi>greatneſſe</hi> cannot keepe you from <hi>Dying,</hi> let your Goodneſſe keepe you from <hi>ſink<g ref="char:EOLhyphen"/>ing,</hi> periſhing, and loſing by Death.</p>
+            <p>Thus for <hi>Davids</hi> ground of ſorrow, as that muſt be Rationall, and ſtand upon ground.</p>
+            <p>Now followes his inference and practice.</p>
+            <p>
+               <hi>A man great and conſiderable fals: Therefore David fals upon mourning, and pleads for it.</hi>
+            </p>
+            <list>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 A man is ſlaine: and upon grounds of <hi>huma<g ref="char:EOLhyphen"/>nitie David</hi> would mourne.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 Next, a publike man, now upon a publike ſervice and errand, is ſlaine: and upon reaſons of <hi>State, David</hi> would appeare a Mourner.</item>
+               <item>
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 A man ſo uſefull was ſlaine in <hi>Iſrael;</hi> and in point of <hi>Religion, David</hi> is to lament, and ſeemes to <hi>Wonder</hi> at his Servants <hi>Wondring</hi> at his practice. <hi>Know yee not</hi> (ſaith he, <hi>&amp;c.) q. d.</hi> It you owne your
+<pb n="18" facs="tcp:156372:14"/>owne eyes and knowledge, you cannot but know, that I have reaſon to be ſenſible of this ſtroke.</item>
+            </list>
+            <p>Hence our ſecond Inference.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>2</label> 
+               <hi>When great men are taken from us, we muſt be affected with it.</hi>
+            </p>
+            <p>When <hi>Abners</hi> fall (men great of <hi>place,</hi> and <hi>uſe</hi> both) we muſt have a ſenſe of it, and obſerve it for uſe.<note place="margin">Zach 4.7. Dan 4.10. Ezek. 31 3 14</note> When Mountaines are ſhaken, and Ceders ſhattered. When pillars are Pulled downe, and Stars of greateſt magnitude hide their heads, we muſt reſent this with <hi>David,</hi> and improve it unto ſorrow.</p>
+            <p>Shall I need to prove theſe ordinary and confeſ<g ref="char:EOLhyphen"/>ſed truths?<note place="margin">Eccl 7.2.</note> 
+               <hi>Salomon</hi> tels us, that <hi>A wiſe man layes any mans death to heart.</hi> And <hi>Iſaiah</hi> chides us, if we let an <hi>uſefull</hi> man (though private) paſſe out of the world,<note place="margin">Eſay 57.1.</note> without obſervation. What would hee ſay in caſe we ſhould burie a man of <hi>publike uſe and ſpirit,</hi> without an <hi>Ah his glory!</hi> what in this caſe hath beene done, it is needleſſe to report. I will not lead the ſimpleſt out of his owne know<g ref="char:EOLhyphen"/>ledge.<note place="margin">Gen. 50.10. 2 Chro. 32.33 2 Chro. 35.24 25. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> King. 13.14.</note> Who knowes not what lamentations were taken up for Patriarch <hi>Iacob,</hi> great <hi>Hezekiah,</hi> good <hi>Ioſiah?</hi> who hath not heard of <hi>Eliſha's</hi> Epitaph, <hi>The Horſemen, and Chariots of Iſrael:</hi> and that from a man not of beſt note? And leſt you ſhould im<g ref="char:EOLhyphen"/>pute all this to the greatneſſe only of mens <hi>place,</hi> without reſpect had to mens <hi>uſe</hi> and worth, the Holy Ghoſt is pleaſed to ſet a marke upon the Coffin of perſons leſſe publike, and more obſcure when they were <hi>uſe full.</hi> Thus Nurſe <hi>Deborah</hi> a profitable member, leaves a marke upon the
+<pb n="19" facs="tcp:156372:14"/>place of her buriall, <hi>The Oke of Weeping,</hi> more fa<g ref="char:EOLhyphen"/>mous than the <hi>Oke of Reformation,</hi> in our Storie:<note place="margin">Gen. 35.8.</note> Thus mercifull <hi>Dorcas</hi> (rather <hi>Tabitha</hi>) was <hi>cove<g ref="char:EOLhyphen"/>red</hi> with teares, as ſhe <hi>covered</hi> others with cloaths, <hi>Act.</hi> 9.39.</p>
+            <p>Nor was this ſolemne mourning only for men and perſons eminent for <hi>pietie:</hi> but for others, who in Morall and Politicall conſiderations were, in their way, <hi>uſefull.</hi> Thus holy <hi>David</hi> weepes over Captaine <hi>Abner,</hi> of whoſe pietie wee heare not much: All that his friend and Countrey-man ſaith of him; is, That he was a <hi>Prudent man,</hi>
+               <note place="margin">Ioſephus.</note> 
+               <hi>well qualifi<g ref="char:EOLhyphen"/>ed for naturall parts.</hi>
+            </p>
+            <p>Thus he much bewails the death of <hi>Abners maſter</hi> King <hi>Saul,</hi> and lets not to tell the State,<note place="margin">2 Sam. 1.17.</note> that their loſſe in him is great; not becauſe his forwardnes in Religion was much: only he was a good Huſ<g ref="char:EOLhyphen"/>band for the Publike, and a brave Commander;<note place="margin">Verſ. 24.</note> no leſſe active and valiant,<note place="margin">Ratio res Dei. Tort.</note> than he was comely and proper. But Reaſon is GODS, as well as Scri<g ref="char:EOLhyphen"/>pture: we bind up the Point with Three Reaſons. <label type="milestone">
+                  <seg type="milestoneunit">Reaſons. </seg>
+               </label>
+            </p>
+            <p n="1">
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>1</label> 1 If we looke upon ſuch men, as they are mem<g ref="char:EOLhyphen"/>bers of a Body-Politique, the loſſe is great. If the <hi>Body</hi> cannot ſay of the Foot (nay of one Toe of the foot, nay of one joynt or naile of the toe) <hi>I have no need of thee:</hi>
+               <note place="margin">1 Cor. 12.21.</note> much leſſe can it ſay ſo of a more no<g ref="char:EOLhyphen"/>ble part. There is a loſſe, a maime in the leaſt, and the body is ſenſible of it: much more when an eye, or hand, or arme is taken off:<note place="margin">Dan. 11.15.22.31.</note> And Great Perſona<g ref="char:EOLhyphen"/>ges are Eyes, Hands, nay Armes.</p>
+            <p n="2">
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> 2 If wee conſider ſuch as Heads over charges, who knows not what an influence they have upon
+<pb n="20" facs="tcp:156372:15"/>Inferiours? and what a dependence there is upon them? They? Why they are as <hi>Pinnes,</hi> whereon many <hi>Veſſels hang, Iſaiah</hi> 22. As great Okes, which yeeld life to <hi>many</hi> Sprigs; ſhade and ſhelter to <hi>more.</hi> One ſuch a Sunne is more than a Thou<g ref="char:EOLhyphen"/>ſand Candles: with one ſo pregnant and big-belli<g ref="char:EOLhyphen"/>ed, hundreds live and die.</p>
+            <p n="3">
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>3</label> 3 If we view them as they relate to GOD, and are ſubjects wrought upon by him, The ſtroke is the greater: Becauſe it is a Meſſenger of ſome Wrath. When GOD thus Beheads a Family, or Towne, or Countrey, there's a great breach made with ſuch a blow: when he, who ſhould ſtand in the gap, is taken away, <hi>Ier.</hi> 5.1. 'Tis farther an ill preſagement, as <hi>Iſaiah</hi> foretels, <hi>cap.</hi> 3. The Pilot loſt, the whole Ship is hazarded: The Captaine (as the <hi>Seventie</hi> here read it) may be more than all his Companie,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> and weigh downe Thouſands, as <hi>Davids</hi> Souldiers once ſaid.<note place="margin">2 Sam. 18.3.</note>
+            </p>
+            <p>In ſhort, In one head is <hi>Vertually</hi> contained the whole body.<note place="margin">Iudg. 9.53.</note> Wound <hi>Abimeleck</hi> there, and where's <hi>Abimeleck?</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſes. </seg>
+               </label> I apply now in ſome haſte, and muſt divide my ſelfe againe betwixt Great, and Small.</p>
+            <p n="1">
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>1</label> 1 And firſt, let me begin with you of the <hi>High<g ref="char:EOLhyphen"/>er Ranke and Marke.</hi> And my ſuite to you is, That you will anſwer your places, and be <hi>Vſefully Great,</hi> which only Greatens you. The Great GOD doth not meaſure men by Inches,<note place="margin">Men of Mea<g ref="char:EOLhyphen"/>ſures in <hi>Moſes.</hi>
+               </note> as ſometimes men doe: Nor by an outward Greatneſſe: <hi>He re<g ref="char:EOLhyphen"/>gards not the armes,</hi>
+               <note place="margin">Pſal. 147.10. Job 34.19.</note> 
+               <hi>or legs of a man:</hi> Hee reſpects the Rich no more than the poore: The thing hee
+<pb n="21" facs="tcp:156372:15"/>looks to, is Vertue, Serviceableneſſe; that is the thing.<note place="margin">Gen. 1.16.</note> The Moone is a Great Light becauſe of Great Uſe. A <hi>lew</hi> at <hi>Berea</hi> is more eminent,<note place="margin">Act. 17.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>1.</note> and Honourable than <hi>another</hi> elſewhere, becauſe more Conſciencious. There is, (you know) a Greatnes in Bulke, and in worth. A <hi>Larke</hi> may be <hi>more</hi> than a <hi>Kyte,</hi> though not in bulk, yet in worth.<note place="margin">Molis &amp; virtu<g ref="char:EOLhyphen"/>tis.</note> There is (they ſay) a Greatneſſe <hi>Belluine, &amp; Genuine.</hi> in that a beaſt may and doth exceed us: In this we exceed our <hi>ſelves,</hi> and <hi>others;</hi> and in this <hi>only.</hi> No man is the better ſimply for his Greatneſſe, unleſſe it bee attended with goodneſſe. So much we may learne from wiſer times: For, ſithence men underſtand themſelves, they let fall thoſe Swelling and emptie Titles of <hi>Greatneſſe;</hi> few re<g ref="char:EOLhyphen"/>joyced in that name, unleſſe great <hi>worth</hi> and at<g ref="char:EOLhyphen"/>chievements put it upon them; As it fared with <hi>Conſtantine,</hi> and ſome few others. They were gladly heard, Wiſe, Learned, Pious, Philoſopher, Philopater, and the like. And, when men would honour them with attributions of worth, they ſti<g ref="char:EOLhyphen"/>led them <hi>Nedibims</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Optimates,</hi> and other like, ſounding their true worth,<note place="margin">Bountifull Be<g ref="char:EOLhyphen"/>nefactors <hi>&amp;c.</hi>
+               </note> and carrying meat in the mouth. Yea ſo much we may learne from Higheſt (that is Divine) Language. Wiſedome it ſelfe, when it pleaſeth to beſtow honours upon men, cals them <hi>Fathers, Foſter-fathers, Saviours,</hi> and the like.<note place="margin">1 King. 5.13. Exod. 20. Eſay 49 23. Act. 7.35. Heb. 4.8. <hi>So<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>chus Soter.</hi>
+               </note> Which ſome alſo, without the pale of the Church, either affected or enjoyed. As <hi>An<g ref="char:EOLhyphen"/>tiochus Soter: Antigonus</hi> in <hi>Suidas. &amp;c.</hi>
+            </p>
+            <p>So then, in true judgement, the ſtile and thing, hat truly honours and enobles a man is <hi>Goed<g ref="char:EOLhyphen"/>neſſe,</hi>
+               <pb n="22" facs="tcp:156372:16"/>therein a man moſt nearely toucheth the <hi>Beſt</hi> and <hi>Higheſt</hi> Good,<note place="margin">Pſal <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>19.68.</note> our <hi>Ever-bleſſed</hi> GOD, whoſe higheſt title is that in the Pſalme. <hi>He is good, and doth good.</hi>
+            </p>
+            <p>I cannot enlarge. I will ſay before you one on<g ref="char:EOLhyphen"/>ly inſtance, of Father and Sonne in the <hi>ſame</hi> fami<g ref="char:EOLhyphen"/>ly, who ranne their ſeverall waies with different ſucceſſe. The Father was <hi>Ioſiah;</hi> Hee was all for Goodneſſe. Good he was, and did Good to GODS houſe, and people. The Sonne was <hi>Shallum;</hi> (whe<g ref="char:EOLhyphen"/>ther ſo term'd in ſcorne, and reference to another <hi>Shallum,</hi> I have not to ſay) He was all for an earth<g ref="char:EOLhyphen"/>ly Greatneſſe. Before he was well warme in his Fathers Throne, he had great thoughts, and would not take it as his Father did: Hee would build a ſtately Palace, much enlarge himſelfe, and (as it ſeemeth by one affix in the Text, <hi>Ier.</hi> 22.14.) would take in a peece of GODS houſe too.<note place="margin">My Windows the Hebrew.</note> Thus they ſteared their courſe. Now what was the iſſue?</p>
+            <p n="1">1 In Life, the one proſpered: the other went backward. <hi>Did not thy father proſper?</hi> (ſaith GOD) to the Sonne. <hi>Ier.</hi> 22.15.</p>
+            <p n="2">2 In Death, the one had a moſt honourable interment. <hi>All Iſrael mourned for him, mourned much,</hi>
+               <note place="margin">Lam. 4.20.</note> 
+               <hi>mourned long:</hi> the other (like the unhappy ſonne of another good father) <hi>lived undeſired, died unlamented,</hi>
+               <note place="margin">2 Chro. 21.20 Ier. 22.18, 19.</note> 
+               <hi>and was buried with the buriall of an Aſſe,</hi> no man weeping over him.</p>
+            <p>Give me leave to uſe my ancient freedome. In theſe read <hi>your ſelves,</hi> and your owne <hi>Lot.</hi> If you (with <hi>Shallum,</hi> and his Brethren) make none other uſe of your Greatneſſe, but to Rob GOD, Pride
+<pb n="23" facs="tcp:156372:16"/>your ſelves, and oppreſſe the poore, your Great<g ref="char:EOLhyphen"/>neſſe ſhall be your Shame, as 'twas <hi>Shebna's,</hi> and ſhall end in Baſeneſſe and Contempt. Well may men bleſſe, and flatter you, whiles here you mag<g ref="char:EOLhyphen"/>nifie and adore your ſelves: But when you are Dead, they'll trample upon your faces, and curſe you as faſt. At your Grave none ſhall mourne:<note place="margin">See ſome Em<g ref="char:EOLhyphen"/>perors, <hi>Herod. &amp;c.</hi>
+               </note> un<g ref="char:EOLhyphen"/>leſſe Fee'd, or Forced (as once it befell others) ra<g ref="char:EOLhyphen"/>ther they will rejoyce at your fall (as once at ano<g ref="char:EOLhyphen"/>thers in <hi>Eſa.</hi> 14. and <hi>your names ſhal be written in the dust, and buried in oblivion:</hi> Or if they remain, they ſhall <hi>Lie as Carrion above ground,</hi>
+               <note place="margin">Prov. 10.7. Eſay 25.25.</note> 
+               <hi>and become a Curſe.</hi>
+            </p>
+            <p>On the other ſide, If you ſhall improve your Greatneſſe to GODS glory, and to the Countries good; to the Churches growth, and mens com<g ref="char:EOLhyphen"/>fort; you ſhall not need with <hi>Abſalom, Otho, Iuli<g ref="char:EOLhyphen"/>an,</hi> or any other <hi>Publicola,</hi> to <hi>Hunt</hi> for applauſe: Honour will hunt out you, and you ſhall not avoid it. Whiles you live you ſhall live in the hearts and deſires of men, they will pray for yours, and praiſe GOD for you: And when you die you ſhall not need a Trumpet or Herald to ſound your worth: Every man will bee a Trumpet; every man will make an Oration; All <hi>Iſrael</hi> will mourn, in heart, and not in face, and forme. Oh, Chuſe rather to bee buried with Prayers and Thankes, than with Curſes and Complaints: Set your Servants, Tenants, Neighbours on weeping, rather than on laughing, at your Graves. So live, that there may be Vſe of you, whileſt you live, and Miſſe of you, when you are dead. That is; Bee humble, modeſt, godly, ſober in your ſelves.
+<pb n="24" facs="tcp:156372:17"/>Bee helpfull, comfortable, profitable unto others. When you are gone, theres no more remaining of you, but your Goodneſſe. The queſtion will not bee, How Rich, How Great, How Gallant you were. The queſtions will bee, What did he? Who was the better for him? If none, What made he in the World? <hi>An unprofitable man, whileſt living, is dead: A uſefull member, when dead, yet lives. Live, Live, Live quickly, Live much, Live Long.</hi> So you are welcome to the world: els, you are but <hi>Hiſſed</hi> and <hi>Kickt</hi> off this Stage of the World,<note place="margin">Phocas <hi>by</hi> He<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> as another was. Nay many (as <hi>Iob.</hi> 27.23 <hi>&amp; V.</hi> 1 5.) who were <hi>buried before halfe dead.</hi>
+            </p>
+            <p n="2">
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>2</label> 2 For us of a <hi>Lower forme,</hi> (nay lets take in all.) This I ſay. Either we yet have, or have not Lea<g ref="char:EOLhyphen"/>ding men among us. <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 If as yet wee ſee ſome Starres, in this great darkneſſe; lets joyfully en<g ref="char:EOLhyphen"/>tertaine them, as Wiſemen did once another, <hi>Mat.</hi> 2. Doe but thinke what an Army is, without a Captaine; a Ship, without a Pilot; an Head, with<g ref="char:EOLhyphen"/>out a Body; what a miſery it is, to live without order; to be where men <hi>Talke all at once,</hi> and none can <hi>lay his hand upon other,</hi> or command ſilence. Truly ſuch a <hi>Paritie</hi> borders neer upon an <hi>Anarchie,</hi> and confuſion: and wee much forget our ſelves, if we neglect this mercy of having Uſefull men. When <hi>Iſrael</hi> had a <hi>Salomon,</hi> they divided their time,<note place="margin">Pſal. 72.15.</note> betweene <hi>Praying,</hi> and <hi>Praiſing</hi> GOD for him.</p>
+            <p>Tis a miſery never to ſee the Face, but the Back only of mercies. Tis a frowardneſſe to ſee no<g ref="char:EOLhyphen"/>thing but faults in men, whileſt we have them:
+<pb n="25" facs="tcp:156372:17"/>and then nothing but whine, when we loſe them.</p>
+            <p>Take heed that you doe not <hi>Brawle Moſes</hi> out of the world; and then <hi>Scratch</hi> him out of his Grave againe, unleſſe GOD <hi>hide him</hi> from you.</p>
+            <p>
+               <hi>Croſſes ſting deeply,</hi> when <hi>Mercies Paſſe lightly, See what you have, before you ceaſe to have it.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Have wee loſt any <hi>Abner</hi> from amongſt us? <hi>David</hi> prompts us our leſſon. <hi>We muſt feele our loſſe.</hi> 
+            </p>
+            <p>And here, What would become of mee, ſhould I let out my ſelfe, and purſue my thoughts! How many brave <hi>Schollars, Souldiers, Stateſmen</hi> have wee ſeene laid in the <hi>Duſt!</hi> Nay, what <hi>Mighty Starrs</hi> have within our memorie, beene hidden from us! What ſhould I bee medling with <hi>Crownes?</hi>
+               <note place="margin">Three mighty Princes and men in their ſeverall wayes.</note> Or ſpeak what a blow <hi>England, France, Swedeland; &amp;c.</hi> have received upon their very <hi>Head,</hi> in this our age.</p>
+            <p>Theſe bee Subjects of a <hi>Fairer Pen,</hi> and higher diſcourſe. I have my hands and heart full with our preſent Inſtance. <hi>Our friend Lazarus ſleepes,</hi> and we cannot wake him. In this one <hi>Bottome</hi> we have all our intereſts, and ſuffer a wrecke.</p>
+            <p>
+               <hi>A Noble Lady</hi> hath loſt, not an <hi>Husband</hi> (as ſhee ſaith) but a <hi>Father.</hi>
+            </p>
+            <p>
+               <hi>Many Children</hi> have loſt, not a <hi>Father,</hi> but a <hi>Counſellour.</hi>
+            </p>
+            <p>
+               <hi>An houſe-full of Servants</hi> have loſt, not a <hi>Ma<g ref="char:EOLhyphen"/>ſter</hi> but a <hi>Phiſitian;</hi> who made, (as I am informed) their ſickneſſe his, and his phyſick and coſt theirs.</p>
+            <p>
+               <hi>Townes-full of Tenants</hi> have loſt a <hi>land-Lord,</hi> that could both <hi>protect</hi> and <hi>direct</hi> them in their owne way.</p>
+            <pb n="26" facs="tcp:156372:18"/>
+            <p> The whole <hi>Neighbourhood</hi> have loſt a <hi>Light.</hi>
+            </p>
+            <p>The <hi>Countie</hi> a <hi>Leader.</hi>
+            </p>
+            <p>The <hi>Countrey</hi> a <hi>Patriot;</hi> To whom he was not wanting, till he was wanting to himſelfe, in his former vigor and health.</p>
+            <p>What would <hi>David</hi> ſay in ſuch a caſe? Truly, as he ſaid,<note place="margin">1 Sam. <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> 
+               <hi>Weepe yee daughters of Ieruſalem, for king Saul, &amp;c.</hi> And what can I ſay leſſe, than <hi>Weepe ye poore,</hi> within doores; yee <hi>poore,</hi> without: <hi>yee poore old people,</hi> whom he kept alive, by ſtudying how to fit you with worke: <hi>Yee poore,</hi> in the bordering Townes, to whom hee ſent, with <hi>David, A Peece of fleſh with Bread,</hi>
+               <note place="margin">2 Sam. 6.19.</note> every yeare: Yea, <hi>Mourne,</hi> yee Gates, who were kept warme, with weekely proviſions for the neighbouring poore. Yea <hi>Mourne, all Allies, and Aliens; Rich and Poore; Old and Young.</hi> For a <hi>Publike loſse,</hi> let there be a <hi>Publike lamentation.</hi>
+            </p>
+            <p>
+               <hi>Speake I theſe things after the manner of men?</hi> To <hi>Deifie</hi> the Dead; To <hi>Gratifie</hi> the Living? No, I ſpeake of <hi>A Man,</hi>
+               <note place="margin">Iam. 5.</note> 
+               <hi>A Man</hi> (with <hi>Great Elijah) ſub<g ref="char:EOLhyphen"/>ject to like paſsions with us: A Man,</hi> who caſt himſelfe lower than you, or I dare caſt him. For in Saint <hi>Pauls</hi> words he ſaid, That he was <hi>Of ſin<g ref="char:EOLhyphen"/>ners the chiefe:</hi> Of ſuch a <hi>Man</hi> I ſpeake, and will ſay no more of him, than what hath a faire <hi>Proſpect</hi> to your <hi>Profit.</hi> We muſt do him <note n="*" place="margin">Hinc <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, et Iuſta defuncte<g ref="char:EOLhyphen"/>rum.</note> 
+               <hi>Right;</hi> and it is one of the <hi>Rights,</hi> and <hi>Dues</hi> of the dead, To be <hi>La<g ref="char:EOLhyphen"/>mented at their Funerals.</hi> We owe it,
+<list>
+                  <item>1 To <hi>Him,</hi>
+                  </item>
+                  <item>2 To <hi>Religion,</hi>
+                  </item>
+                  <item>
+                     <note place="margin">
+                        <g ref="char:V">Ʋ</g>id. Goul. in Cyprian. Ep. 3.</note>3 To. <hi>Humanitie,</hi> And we ſhould not,</item>
+                  <pb n="27" facs="tcp:156372:18"/>
+                  <item>4 <hi>Pleaſe</hi> GOD, If we ſhould let ſuch members paſſe, without ſome ſad remembrance.</item>
+               </list>
+            </p>
+            <p>And yet there is more in it, than you are all a<g ref="char:EOLhyphen"/>ware of.</p>
+            <p>
+               <hi>The Time of Abner's death</hi> was almoſt as much as the <hi>thing it ſelfe. Iſraels Abner</hi> was now <hi>Rightly ſet,</hi> (his Grounds I wave, but) over he was come to <hi>David's</hi> ſide: The Sinewes of that disjoynted State were now knitting: The ſparkes of that unhappy warre now quenching. <hi>Abner</hi> had a <hi>Great Deſigne</hi> in hand, and things were likely to re<g ref="char:EOLhyphen"/>ceive a faire end. In the midſt of all <hi>Abner Dyes,</hi> The <hi>Buſineſſe</hi> is <hi>ſcoated: Pendent opera interrupta:</hi> Hence theſe teares in part. It was the caſe of this our <hi>Engliſh Abner.</hi> Hee had <hi>Noble deſignes,</hi> and thoughts in his head. But Alas! <hi>How ſoone doe our thoughts fall with us! Pſalme</hi> 146. Onely <hi>the thoughts, and Counſels of the only wiſe</hi>-GOD <hi>ſtand good for ever.</hi> He had another <hi>Deſigne</hi> upon this <hi>Our Abner:</hi> And, to fit him thereunto, hee ſet him to the <hi>Beſt Schoole,</hi> that ever he was in; where the <hi>Two Schoolemaſters</hi> of <hi>Luther,</hi> and <hi>Calvin (Tem<g ref="char:EOLhyphen"/>ptations</hi> and <hi>Afflictions)</hi> taught him more in one yeare, than all his Bookes, wherein hee was ſo much verſt, could doe, in an age. Now <hi>Specula<g ref="char:EOLhyphen"/>tion</hi> was tranſlated into <hi>Experience.</hi> And now I wiſh, that all of his Ranke (and of mine too) had heard him <hi>Decrying the Vanitie of all Creatures, and Abaſing ſinfull fleſh</hi> before the <hi>Great</hi> GOD.</p>
+            <p>You can eaſily conceive how <hi>Full Expreſsions</hi> would bee from his <hi>owne Mouth,</hi> and how well it would become him, to <hi>Staine the pride of man.</hi>
+            </p>
+            <pb n="28" facs="tcp:156372:19"/>
+            <p> But that is not all: Would, you had heard his judgement of <hi>Practicall Divinitie,</hi> and <hi>unaffected Preaching.</hi> His cenſure of mans <hi>ſlighting</hi> the wayes of <hi>Wiſedome,</hi> and <hi>Sanctification.</hi>
+            </p>
+            <p>And laſtly, (To ſay nothing of what was ſaid under ſeale) I wiſh that all wee <hi>(Divines)</hi> had but heard his <hi>vehement expreſsions</hi> of the <hi>baſe, baſe,</hi> and more than <hi>ſlaviſh flatteries</hi> of ſome of us <hi>Church<g ref="char:EOLhyphen"/>men,</hi> toward the living and dead.</p>
+            <p>But why doe I flatter my ſelfe with a con<g ref="char:EOLhyphen"/>ceit of <hi>Hearing</hi> and <hi>Having</hi> him, whileſt I ſpeak his words! Hee is gone from us, and hath left us no more of <hi>Himſelfe</hi> than a <hi>Sad Repreſentation.</hi> And it muſt grieve both you and mee, to have <hi>Such a Man,</hi> at <hi>Such a Time,</hi> taken from us; and to ſee ſo much reading, obſervation, know<g ref="char:EOLhyphen"/>ledge, wiſedome, (I could ſay, if yet I could ſpeake it, ſo much ingenuitie, nobleneſſe, plain<g ref="char:EOLhyphen"/>heartedneſſe to his Friend, when upon <hi>Tryall</hi> hee could <hi>Trust</hi> him: But I onely ſay, before I get off this ſad diſcourſe) <hi>So much worth, and Sufficiency,</hi> qualifying him for the Service of any State, or Prince, ſo <hi>Suddenly ſnatch't</hi> from us.</p>
+            <p>But <hi>O Sin! Sin! Sin!</hi> Theſe be the <hi>bitter fruits of our Curſed Sinnes.</hi>
+            </p>
+            <p>But ſtay Brethren, Quiet your ſelvs, and heare <hi>King David</hi> a little further.</p>
+            <p>
+               <hi>Dyed Abner</hi> (ſaith hee) <hi>like a foole?</hi> No, not like a foole, nor yet ſo happily <hi>(All-out)</hi> as this <hi>Abner</hi> of ours.</p>
+            <p>
+               <hi>Abner</hi> (for ought appeares) dyed <hi>Intestate;</hi> hap<g ref="char:EOLhyphen"/>ly
+<pb n="29" facs="tcp:156372:19"/>
+               <hi>Childleſſe;</hi> certainly hee dyed <hi>very ſuddenly,</hi> and had not much time left him to reſigne himſelf to GOD by prayer.</p>
+            <p>And being dead, He borrowes his Bed in ano<g ref="char:EOLhyphen"/>ther mans Ground.</p>
+            <p>Not ſo this <hi>Noble Gentleman.</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 He made his Will: and that in his health, and who ſo reades it will eaſily believe it, and I am not ſorry that I min<g ref="char:EOLhyphen"/>ded him thereof: (though ignorant therein) for that is the <hi>Worke</hi> of our <hi>greateſt Strength.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 He dyes not <hi>All at once:</hi> but hath left behind a <hi>Faire, a Numerous Of spring,</hi>
+            </p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 He dyes not <hi>unexpectedly,</hi> nor was his <hi>Tongue tyed.</hi> Hee abounded with petitions, and ejacu<g ref="char:EOLhyphen"/>lations of his owne, (to ſay nothing of what was lent him by others,) whileſt I was with him, and more afterward, as his diſſolution drew nearer, as I am told.</p>
+            <p n="4">4 And (being fallen aſleepe) <hi>Hee is gathered to his Fathers in peace.</hi> Here he <hi>lyes</hi> in his owne <hi>Bed:</hi> Here he <hi>lives</hi> in his <hi>Poſteritie. Charlcot</hi> is <hi>Charlcot</hi> ſtill, not <hi>Hebron.</hi>
+            </p>
+            <p>The greateſt ſervice wee can doe him (having mourned over him, and made this Funerall an <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> of all failings) Is to honour him in his <hi>Li<g ref="char:EOLhyphen"/>ving pictures,</hi> (as once they did their <hi>good</hi> Rulers at <hi>Rome,</hi> in their <hi>Dead Statues</hi>)</p>
+            <p>Bee not you, who loved the <hi>Tree,</hi> wanting to his <hi>Fruit.</hi> Viſit them; Adviſe them; Be faith<g ref="char:EOLhyphen"/>full to them; Pray at leaſt for them, for each of them;<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> eſpecially for the <hi>First Borne</hi> of his fa<g ref="char:EOLhyphen"/>mily: what <hi>Hector</hi> (ſhall I ſay?) in <hi>Homer,</hi> did for
+<pb n="30" facs="tcp:156372:20"/>his Sonne?<note place="margin">1 King. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.47.</note> Nay, what <hi>David's</hi> ſervants did for their <hi>Young Maſter.</hi> That his worth and honour may furmount his Fathers. <hi>Amen,</hi> ſaid <hi>Father Da<g ref="char:EOLhyphen"/>vid. Amen,</hi> ſaid his <hi>Truest ſervants</hi> to that prayer then. <hi>Amen,</hi> ſay I to the like now.</p>
+            <p>And ſo we have done with <hi>Abner.</hi>
+            </p>
+            <p>But all this while what becomes of the King? <hi>Abner is now quiet.</hi> But the <hi>King</hi> bemoanes him<g ref="char:EOLhyphen"/>ſelfe. Heare him. <hi>I am weake: The ſonnes of Zerviah are too ſtrong for me.</hi> And why, <hi>the ſons of Zerviah?</hi> Why not of <hi>Aſar?</hi> (if that were (as <hi>Ioſephus</hi> tels us) their fathers name.<note place="margin">Ioſeph. An<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> lib. <hi>7.</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>p. <hi>1.</hi>
+               </note>) Was it, be<g ref="char:EOLhyphen"/>cauſe hee was dead? Or was the Mother more <hi>Maſculine</hi> and <hi>Active?</hi> Or was it, becauſe the honour came in by the Mother, as neareſt allied to the now-<hi>King?</hi> However <hi>The Sonnes of Zervi<g ref="char:EOLhyphen"/>ah</hi> they were; and ſome of them yet liv'd; and theſe were too big for <hi>David</hi> (as things ſtood) to buckle withall: and hence the complaint.</p>
+            <p>But what! was not <hi>David</hi> a <hi>King?</hi> What! Did he <hi>Rule</hi> in <hi>Iſrael,</hi> and yet <hi>complaine?</hi> Was hee <hi>Annointed,</hi> and yet <hi>overmatch't?</hi> Why then ſee how it fares with us, whileſt here</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>3</label> 
+               <hi>The highest eſtate may be over-topt.</hi>
+            </p>
+            <p>The beſt eſtate (here) is a maimed, and imperfects eſtate.</p>
+            <p>The <hi>Beſt man, David.</hi>
+            </p>
+            <p>The <hi>Greateſt man, King David</hi> hath here his <hi>Hands,</hi> and <hi>Heart,</hi> full. We muſt draw in. Note but the <hi>Particulars</hi> in the Text.</p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 <hi>All is imperfect.</hi> Some what ſtill wanting in the fulleſt eſtate. <hi>Abraham</hi> had <hi>Riches:</hi> but then
+<pb n="31" facs="tcp:156372:20"/>hee wants an <hi>Heire,</hi> and after that a <hi>Wife. Iſaac</hi> hath <hi>Health:</hi> but then he wants <hi>Sight. Aſa honour:</hi> but he wants <hi>Health. Vzziah Riches:</hi> but he wants <hi>Libertie.</hi> In One; <hi>David</hi> hath a <hi>Crowne;</hi> but hee wants an <hi>Arme.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 <hi>All ſomewhat galling and vexing.</hi> When we are at the Higheſt, ſomewhat is too Hard for us.</p>
+            <p>
+               <note place="margin">1 Kings 21. Ier. 38.5. Dan. 6.</note> 
+               <hi>David, Ahab, Zedekiah, Darius, All kings:</hi> and yet all met with their <hi>Match,</hi> and were held to <hi>Hard meate.</hi> One ſonne or other was too hard for them, as well as <hi>Zerviahs</hi> ſons were for <hi>David.</hi>
+            </p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 And in a word, <hi>All unſatisfying;</hi> and not fully to our minde. King <hi>David</hi> cannot have his will in all things. Somewhat goes againſt the <hi>Haire.</hi>
+            </p>
+            <p>
+               <note place="margin">1 King. 21.6. Eſth. 5.13.</note> Nay the <hi>Worlds Minions (Ahab</hi> and <hi>Haman)</hi> make their moane. But why doe I tire you! I'll quickly ſay all.</p>
+            <list>
+               <item>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Reaſ. </seg>1</label> 1 Theſe earthly things are <hi>Lame</hi> and unſuffici<g ref="char:EOLhyphen"/>ent, partiall goods, which will not fill all chinks.</item>
+               <item>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Reaſ. </seg>2</label> 2 Wee are <hi>Needy,</hi> and ſhiftleſſe both. Wee want all things, and are patcht up with theſe poore <hi>Shreds.</hi>
+               </item>
+               <item>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Reaſ. </seg>3</label> 3 We mingle all with <hi>Sinne;</hi> and then GOD mingles all with <hi>Gall.</hi>
+               </item>
+               <item>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Reaſon </seg>4</label> 4 Briefly; We are here from <hi>Home,</hi> and out of <hi>Place:</hi> And what <hi>Quiet,</hi> and <hi>Comfort,</hi> when theres ſuch a <hi>Diſ-location?</hi>
+               </item>
+            </list>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſes. </seg>
+               </label> I apply in three words.</p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 Be not Surety for the world; Neither pro<g ref="char:EOLhyphen"/>miſe, nor expect <hi>great matters</hi> thence, at <hi>Firſt:</hi> (as men who have the world in <hi>Reverſion</hi> uſually doe)
+<pb n="32" facs="tcp:156372:21"/>Leſt at Laſt you cry, <hi>O Solon, Solon!</hi> or <hi>O Seldius!</hi> as others have done before you.<note place="margin">Croe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us in He<g ref="char:EOLhyphen"/>rodo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. &amp; Carol. 5.</note> There is (ſaith <hi>David) An end of all</hi> (Created) <hi>perfection:</hi> and we either have,<note place="margin">Pſal. 119.96.</note> or quickly may ſee over it. Indeed the moſt of us have already ſeene the beſt of this world: And we doe but <hi>Dreame, if we Dreame of better Dayes.</hi>
+               <note place="margin">Meliora tempo<g ref="char:EOLhyphen"/>ra nolite ſp<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>are. Aug. in Pſal. 96.</note> Do not hope for that; (ſaith <hi>Auſtin</hi>) looke not for better times, for better ſucceſſe, than others have found. Greater wee cannot bee than <hi>King David:</hi> he wore a Crown: but he found (as another ſaid) <hi>Cares under it. Wiſer</hi> we cannot bee, than that <hi>Magazin</hi> of knowledge <hi>Salomon:</hi> yet all his <hi>Wit</hi> could not keep <hi>ſorrow</hi> from his <hi>heart.</hi>
+               <note place="margin">
+                  <hi>Great</hi> Rodul<g ref="char:EOLhyphen"/>phus Ruſus.</note> His experience told him, that <hi>All was vanity;</hi> yea <hi>ut<g ref="char:EOLhyphen"/>moſt vanitie.</hi> And worſe than ſo, <hi>Vexation,</hi> and that of <hi>Spirit</hi> too. And believe it; Hee that will build his hopes upon theſe <hi>Sands,</hi> well may he <hi>Die</hi> be<g ref="char:EOLhyphen"/>fore his time, as <hi>Abner</hi> did: But withall hee will <hi>Die a foole,</hi> as <hi>Abner</hi> did not. <hi>Ieremy</hi> hath ſaid it, and men ſhall finde it. <hi>Ier.</hi> 17.11.</p>
+            <p n="2">
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>2</label> 2 Have patience, in caſe your <hi>Friends</hi> bee pre<g ref="char:EOLhyphen"/>ferd hence to Heaven. Suppoſe them Kings here. Alas! Kings have their <hi>Cares</hi> alſo: All things be not to their minde: They cannot <hi>ſave</hi> whom they would, as <hi>David</hi> found in <hi>Abſolom:</hi> Nor can they <hi>Execute</hi> whom they would, as <hi>David</hi> felt in <hi>Ioab.</hi> Nay ſuppoſe them aſwell as <hi>Earth</hi> can make them. <hi>What is Earth to Heaven! Gold to Glory! The whole Creation to the Creator! Earth!</hi> Why it will breake.</p>
+            <lg>
+               <l>
+                  <hi>Ones Head, to compaſſe it,</hi>
+               </l>
+               <l>
+                  <hi>Ones Backe, to keepe it,</hi>
+               </l>
+               <pb n="33" facs="tcp:156372:21"/>
+               <l>
+                  <hi>Ones heart to loſe it.</hi>
+               </l>
+            </lg>
+            <p>Tis a miſery to <hi>Need</hi> any of the Earths <hi>Crutches,</hi> and 'tis a <hi>Cumber</hi> to <hi>have</hi> them: But if once they <hi>get above us,</hi> and bee our <hi>Maſters;</hi> they undoe us: and the more we expect from them, the leſſe wee ſhall enjoy them. Then, of <hi>Leane Comforts,</hi> they become <hi>heavie Croſſes.</hi> Our <hi>Great Conque<g ref="char:EOLhyphen"/>rour</hi> could not conquer his delights, <hi>His Horſe:</hi> hee is hurt thereby. And,<note place="margin">Polyd. Virgil.</note> if I bee not decei<g ref="char:EOLhyphen"/>ved, This Worthy <hi>Gentleman,</hi> and brave <hi>Horſe<g ref="char:EOLhyphen"/>man</hi> met with his diſeaſe, in the ſame delight; and ſo both dyed <hi>Laeſis Inteſtinis,</hi> as I conceive.</p>
+            <p n="3">
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>3</label> 3 Shake hands with this world, and aſſure <hi>Heaven.</hi>
+            </p>
+            <p n="1">
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 There's a <hi>Full estate.</hi> Nothing is wanting there; Nothing that <hi>Reaſon</hi> and <hi>Grace</hi> can deſire. Heres a world of wants. The <hi>Soule,</hi> that wants <hi>Faith, Knowledge,</hi> all; as <hi>Peter</hi> implies.<note place="margin">2 Pet. 1.5.</note> The <hi>Body,</hi> that wants, firſt meat, and then cloth, and then fire, and then ſleep, and then phyſick, and ever one <hi>ſlabber</hi> or other. Yea every ſenſe wants, every member wants, every joynt muſt bee eft ſoones ſupplyed.</p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 There (in <hi>Heaven</hi>) is a <hi>Free Eſtate.</hi> No ſinne there, no ſorrow, no temptation, no tem<g ref="char:EOLhyphen"/>pter. Here all is mingled and compounded. Our beſt comforts are <hi>Bitter-ſweets:</hi> our neareſt friends ſometimes our greateſt Griefes; as <hi>David</hi> found his <hi>Coſins</hi> here: His <hi>Father,</hi> his Brethren; his grea<g ref="char:EOLhyphen"/>teſt Familiars, his Sons, his Wife elſewhere.</p>
+            <p>
+               <hi>Here</hi> nothing is <hi>fully</hi> to our minds: wee doe not pleaſe or ſatisfie our ſelves. We muſt <hi>Per<g ref="char:EOLhyphen"/>force</hi>
+               <pb n="34" facs="tcp:156372:22"/>beare, what we beare <hi>Sadly.</hi> In <hi>Heaven All goes Right.</hi> Every one will pleaſe us, and wee ſhall offend none. There all are of a minde, all as one in <hi>Chriſt, all one Chriſt, and Chriſt all in all.</hi>
+            </p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 There is a <hi>Firme eſtate. A City that hath foun<g ref="char:EOLhyphen"/>dations;</hi> a dwelling that is indeed a <hi>Manſion,</hi>
+               <note place="margin">Heb. 11.</note> a <hi>Crown unfading,</hi>
+               <note place="margin">Mov<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> &amp;c. <hi>Joh, 14.2.</hi>
+               </note> a <hi>Kingdome unſhaken.</hi> Here all things tot<g ref="char:EOLhyphen"/>ter and tumble: heres nothing but <hi>Drooping, Drop<g ref="char:EOLhyphen"/>ping, Dying.</hi> Erewhile, <hi>David</hi> mourning for <hi>Saul,</hi> now for <hi>Abner,</hi> anon for his <hi>owne,</hi> and thus tis here. But in heaven there's no Sun-ſet, no Night, no Death. We ſhall never ſee Grave, but <hi>Ever bee with the Lord,</hi> and with our faithfull brethren. Oh! Aſſure this <hi>Bleſſed eſtate,</hi> that is thus <hi>Full, Free, Firme.</hi> Till you be ſure of that you are ſure of no<g ref="char:EOLhyphen"/>thing.</p>
+            <p>
+               <hi>But how may this be done?</hi>
+            </p>
+            <p>I will ſpeake it, but too briefly.</p>
+            <p n="1">1 <hi>Cleare your title,</hi> that comes in by the <hi>Heire,</hi> the LORD CHRIST. You muſt claime by and under him.<note place="margin">2 Cor. 3.18. Phil. 2.5. Pet. 1.4. Gal. 5 28. 2 Cor. 5.17.</note> Make it good, that he is <hi>yours, you his.</hi> That is, <hi>Produce his Image, his Mind, his Na<g ref="char:EOLhyphen"/>ture, his Affections.</hi> Prove your ſelvs <hi>crucified</hi> to the World, and It to you. Prove that <hi>Old things are paſt,</hi> that al in you from top to toe is <hi>New.</hi>
+               <note place="margin">Mat. 5.</note> And the very <hi>Title</hi> to this eſtate <hi>Intitles</hi> you to a preſent bleſſing.</p>
+            <p n="2">2 <hi>Get preſent poſſeſsion.</hi> That all your Coun<g ref="char:EOLhyphen"/>ſellours will adviſe you unto. Now every <hi>Saving-grace</hi> is as <hi>Turfe</hi> and <hi>Twig:</hi>
+               <note place="margin">Eph. 1.14. 2 Cor. 5.5, 6.</note> is as the <hi>firſt fruits</hi> in <hi>Iſ<g ref="char:EOLhyphen"/>rael:</hi> is an <hi>earneſt</hi> of the <hi>purchaſe,</hi> and <hi>Inheritance,</hi> and gives you entrance, (Liverie and Seiſin) 2 <hi>Peter</hi> 1.11. Theſe (if well ſetled) will make
+<pb n="35" facs="tcp:156372:22"/>you <hi>Dye ſafely,</hi> and put you beyond all <hi>Danger.</hi>
+            </p>
+            <p>To theſe Two, if you will be perſwaded to add Two things more: you will <hi>Die gladly,</hi> and bee free, not only from the Hurt, but from the <hi>ſlaviſh feare of death,</hi> and they are theſe.
+<list>
+                  <item>1 <hi>Conformitie with heaven.</hi>
+                  </item>
+                  <item>2 <hi>Converſation in it.</hi>
+                  </item>
+               </list>
+            </p>
+            <p n="1">1 <hi>Conforme</hi> to it; and from that <hi>likeneſſe</hi> will grow <hi>Love.</hi> Whereas in our ſinfull eſtate, the <hi>ho<g ref="char:EOLhyphen"/>lineſſe of</hi> GOD, and that companie is a <hi>terrour,</hi> and <hi>torment</hi> to us. Heaven would be an Hell to a ſin<g ref="char:EOLhyphen"/>full man. But <hi>fierie</hi> things <hi>Aſcend</hi> as willingly, and naturally, as <hi>earthly things deſcend.</hi> And thinke the ſame of <hi>heavenly Spirits</hi> and <hi>affections.</hi>
+            </p>
+            <p n="2">2 <hi>Converſe</hi> in heaven. Lodge your thoughts, and hearts there. Look into that every day. Spend each day ſome thoughts upon GOD, upon <hi>Chriſt,</hi> upon <hi>heaven;</hi> make that your <hi>home.</hi> Looke upon it as your place, your <hi>Center;</hi> and then you will make to it, whatever it coſt you. A Stone will through an <hi>Element of fire,</hi> a <hi>Sea</hi> of <hi>water,</hi> to come to its <hi>Center.</hi> So will yee, if your dwelling bee above.</p>
+            <p>I have ſaid how you muſt bee qualified. If now you come to learne and minde theſe things, and keepe the Soule in warmth, and upon the wing, you ſhall be able to beare up, in the approaches of death, and to thinke of <hi>Chriſts</hi> comming without <hi>ſin,</hi> with <hi>comfort.</hi> Nay, you <hi>will love his appearance,</hi>
+               <note place="margin">2 Tim. 4.8. 1 Theſ. 1.10. Phil. 3.20. &amp; 1.23. Heb. 9.28. 2 Pet. 3.12.</note> 
+               <hi>wait for it, looke for it, long for it, haſten to it,</hi> and <hi>ha<g ref="char:EOLhyphen"/>ſten him,</hi> in the words of the whole Church, and of this her Sonne. <hi>Come, Lord</hi> JESUS, <hi>come quickly.</hi>
+               <pb n="36" facs="tcp:156372:23"/>So <hi>Shee</hi> to the laſt.<note place="margin">Rev. 22.17.</note> 
+               <hi>Rev.</hi> 22.17. So the <hi>Spirit.</hi> So this Noble <hi>Knight,</hi> who moſt (as I am told) in his laſt words breathed out this: <hi>Come Lord</hi> JE<g ref="char:EOLhyphen"/>SUS, <hi>Come, Come quickly. O my Lord, quickly, Amen.</hi>
+            </p>
+            <p>
+               <hi>Even ſo Come, Lord</hi> JESUS; <hi>Come apace, come once for all,</hi> to make an end of <hi>all Sins, Sorrows, Fune<g ref="char:EOLhyphen"/>rals,</hi> by ending the <hi>Laſt enemie, death,</hi> and by <hi>caſting death and hell, and grave, and all</hi> that oppoſes <hi>life and glory, into the Fire. Amen.</hi>
+            </p>
+            <closer>
+               <hi>Even ſo come Lord</hi> JESUS, <hi>Amen.</hi>
+            </closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
